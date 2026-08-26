@@ -10,5 +10,5 @@ export PATH="$PATH:`pwd`/flutter/bin"
 flutter config --enable-web
 flutter pub get
 
-# Compiler pour le Web (HTML renderer)
-flutter build web --release --web-renderer html
+# Compiler pour le Web sans l'option obsolète
+flutter build web --release

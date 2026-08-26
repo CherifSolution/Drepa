@@ -3,11 +3,6 @@
 <head>
   <base href="/">
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Drep'Care - Application de suivi et prévention de la drépanocytose.">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Drep'Care">
   <title>Drep'Care</title>
   <link rel="manifest" href="manifest.json">
 </head>
@@ -20,7 +15,10 @@
           serviceWorkerVersion: null,
         },
         onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+          engineInitializer.initializeEngine({
+            // Vous pouvez optionnellement spécifier le renderer ici si besoin :
+            // renderer: "html" 
+          }).then(function(appRunner) {
             appRunner.runApp();
           });
         }
