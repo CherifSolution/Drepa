@@ -5,7 +5,7 @@ import 'pdf_report_service.dart';
 import '../services/supabase_service.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Super.key});
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();

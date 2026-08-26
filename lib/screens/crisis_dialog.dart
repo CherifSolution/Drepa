@@ -4,7 +4,7 @@ import '../models/crisis_model.dart';
 import '../services/supabase_service.dart';
 
 class CrisisDialog extends StatefulWidget {
-  const CrisisDialog({Super.key});
+  const CrisisDialog({super.key});
 
   @override
   State<CrisisDialog> createState() => _CrisisDialogState();

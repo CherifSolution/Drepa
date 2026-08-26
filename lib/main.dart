@@ -17,7 +17,7 @@ void main() async {
 }
 
 class DrepCareApp extends StatelessWidget {
-  const DrepCareApp({Super.key});
+  const DrepCareApp({super.key});
 
   @override
   Widget build(BuildContext context) {

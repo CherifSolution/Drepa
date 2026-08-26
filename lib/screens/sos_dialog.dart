@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SosDialog extends StatelessWidget {
-  const SosDialog({Super.key});
+  const SosDialog({super.key});
 
   @override
   Widget build(BuildContext context) {
