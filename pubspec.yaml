@@ -1,0 +1,29 @@
+name: drep_care
+description: Application de suivi et de gestion de la drépanocytose.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  supabase_flutter: ^2.3.0
+  provider: ^6.1.1
+  intl: ^0.19.0
+  pdf: ^3.10.8
+  printing: ^5.11.1
+  fl_chart: ^0.66.0
+  google_fonts: ^6.1.0
+  url_launcher: ^6.2.4
+  geolocator: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
