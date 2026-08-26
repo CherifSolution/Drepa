@@ -9,8 +9,8 @@ void main() async {
   
   // Initialisation Supabase
   await Supabase.initialize(
-    url: 'YOUR_SUPABASE_URL',
-    anonKey: 'YOUR_SUPABASE_ANON_KEY',
+    url: 'https://rpdnpqlbrritmariyefd.supabase.co',
+    anonKey: 'sb_publishable_PiDKq4XG-LE1savclwk07A_BfQlca9F',
   );
 
   runApp(const DrepCareApp());
